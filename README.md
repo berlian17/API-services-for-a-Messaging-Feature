@@ -23,12 +23,13 @@ Here I create User send new message using Laravel framework with MySQL. And I te
     id : 1
     message : hai
 
-# The room parameter is created after running the previous endpoint and is created randomly.
+#The room parameter is created after running the previous endpoint and is created randomly and using a different user.
+#New user -> email : admin2@gmail.com, password : 123456789
 
 -   http://localhost:8000/api/room-chat/{room}
     This endpoint is used for user listing all messages in specific conversation using the parameter room that was created before.
 
-# The room parameter is created after running the previous endpoint and is created randomly.
+#The room parameter is created after running the previous endpoint and is created randomly.
 
 -   http://localhost:8000/api/room-chat
     This endpoint is used for user listing all conversation they involved.
