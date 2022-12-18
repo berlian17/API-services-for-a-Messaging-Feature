@@ -3,7 +3,8 @@ Here I create User send new message using Laravel framework with MySQL. And I te
 1. Then create a database with the name db_rakamin.
 2. After creating the database, run the "php artisan migrate" command in the terminal.
 3. Then run the command "php artisan db:seed --class=DatabaseSeeder" in the terminal.
-4. this is the endpoint used:
+4. Then run the command "php artisan serve" in the terminal.
+5. this is the endpoint used:
 
 -   http://localhost:8000/api/login
     This endpoint is used for login authentication.
